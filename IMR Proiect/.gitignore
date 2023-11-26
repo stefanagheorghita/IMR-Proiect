@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Fisierele care cauzeaza conflicte
+/Library/ArtifactDB-lock
+/Library/Bee/fullprofile.json
+/Library/LastSceneManagerSetup.txt
+/Library/SourceAssetDB-lock
+/Library/StateCache/MainStageHierarchy/d9/d91e19b37e50ee1fb71ed3a641397f5e.json
+/Library/StateCache/SceneView/b1/b1a5ba3e30ac03ddd03e20b75d98c36d.json
+/UserSettings/EditorUserSettings.asset
+/UserSettings/Layouts/default-2021.dwlt
