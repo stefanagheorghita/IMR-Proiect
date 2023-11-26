@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/sceneDinosaurCollection.unity
+    guid: a0688f680063f384fa714d51f49ff032
+  - enabled: 1
+    path: Assets/Scenes/sceneDinosaurCollectionCretaceous.unity
+    guid: 4448a9e9a60eefa4688de9d4eeca796e
+  - enabled: 1
+    path: Assets/Scenes/sceneDinosaurCollectionJurassic.unity
+    guid: a03caf8a1211be94387f0cc75d3746b3
+  - enabled: 1
+    path: Assets/Scenes/sceneDinosaurCollectionTriassic.unity
+    guid: 376e05b22b1a6e5469a290cdd7edaea0
+  - enabled: 1
+    path: Assets/Scenes/sceneDinosaurCollectionSurvival.unity
+    guid: d4519afbd2806ac43bef11ec64684598
   m_configObjects: {}
