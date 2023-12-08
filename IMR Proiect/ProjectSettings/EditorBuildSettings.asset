@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/sceneDinosaurCollectionSurvival.unity
     guid: d4519afbd2806ac43bef11ec64684598
+  - enabled: 1
+    path: Assets/Scenes/sceneEntrance.unity
+    guid: 0c3b419b1ce308c41b8d629fa2324bc9
+  - enabled: 1
+    path: Assets/Scenes/Collection.unity
+    guid: 71ea086380ccdd54f8705224e8abe62a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 708548fa157953e42ad01cbf3fd84595, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 24f3e037dc3aa1c45b075b91a9991f73, type: 2}
