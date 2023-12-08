@@ -12,3 +12,12 @@ Tema 5: Main Modules -> https://docs.google.com/document/d/11tdjwgODLYOnkNLAPtuJ
 Progres sapt 7:
 - am inceput modelarea, am modelat cativa dinozauri si am inceput putin animatiile
 - am creat proiectul in Unity, am adaugat cateva scene si am adaugat niste asset-uri preluate cu animatii, unul din dinozaurii modelati animat, skybox si un exemplu pentru UI
+
+
+Progres sapt 10:
+- am adaugat XR Rig pentru miscare, adaugat modele maini
+- am configurat XR Rig pentru a nu putea trece prin obiecte
+- am construit scena Collection, am delimitat spatiul de miscare 
+- am inceput adaugarea de dinozauri animati in scene
+- am adaugat butoane pentru UI in scena de primire si am facut tranzitia la scena Collection
+- am folosit ScriptableObject pentru a incepe adaugarea de informatii pentru dinozauri
