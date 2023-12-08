@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d1d7bf5d45c3647a7d177d225c2873, type: 3}
+  m_Name: PachycephalosaurusInformation
+  m_EditorClassIdentifier: 
+  dinosaurName: Pachycephalosaurus
+  description: The Pachycephalosaurus was a herbivorous dinosaur known for its distinctive
+    thickened skull and dome-shaped head, which could be used for head-butting behaviors.
+    This dinosaur lived during the Late Cretaceous period, approximately 75 to 65
+    million years ago.  Pachycephalosaurus was a bipedal dinosaur with a relatively
+    small body but a thick, bony skull roof. The purpose of its domed skull has been
+    the subject of scientific debate, with hypotheses ranging from defensive displays
+    to intraspecific combat during mating rituals.
+  historicalData: Cretaceous
+  dinosaurModel: {fileID: 0}

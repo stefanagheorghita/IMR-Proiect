@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d1d7bf5d45c3647a7d177d225c2873, type: 3}
+  m_Name: BrontosaurusIndormation
+  m_EditorClassIdentifier: 
+  dinosaurName: Brontosaurus
+  description: 'The Brontosaurus, also known as Apatosaurus, was a massive, herbivorous
+    dinosaur that lived during the Late Jurassic period, around 155 to 150 million
+    years ago. It belonged to the sauropod family and is renowned for its long neck
+    and tail, as well as its four sturdy legs. Brontosaurus was a colossal dinosaur,
+    reaching lengths of up to 75 feet (23 meters) or more.  Historical data suggests
+    that Brontosaurus led a herbivorous lifestyle, primarily feeding on vegetation.
+    Its long neck allowed it to reach high foliage in trees, while its powerful tail
+    likely served for balance. The discovery of fossils and skeletal remains has
+    provided valuable insights into the anatomy and behavior of this majestic dinosaur.
+    Despite past controversies regarding its classification, Brontosaurus remains
+    a fascinating and iconic dinosaur in the field of paleontology. '
+  historicalData: Jurassic
+  dinosaurModel: {fileID: 0}

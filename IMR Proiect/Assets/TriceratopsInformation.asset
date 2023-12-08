@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d1d7bf5d45c3647a7d177d225c2873, type: 3}
+  m_Name: TriceratopsInformation
+  m_EditorClassIdentifier: 
+  dinosaurName: Triceratops
+  description: 'The Triceratops was a large herbivorous dinosaur characterized by
+    its distinctive frill adorned with three facial horns. It belonged to the ceratopsid
+    family and lived during the Late Cretaceous period, around 68 to 66 million years
+    ago. Triceratops was a quadrupedal dinosaur with a robust body, and it is one
+    of the most well-known and recognizable dinosaurs.  During the Late Cretaceous,
+    Triceratops roamed the ancient landscapes of North America, where it likely occupied
+    a variety of environments ranging from forests to plains. The three facial horns,
+    along with the frill, are believed to have served both defensive and possibly
+    social functions. Triceratops shared its ecosystem with other iconic dinosaurs
+    like Tyrannosaurus rex and had a significant impact on Late Cretaceous ecosystems.
+    The discovery of numerous fossils has contributed to our understanding of this
+    remarkable dinosaur from the Mesozoic era. '
+  historicalData: Cretaceous
+  dinosaurModel: {fileID: 0}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d1d7bf5d45c3647a7d177d225c2873, type: 3}
+  m_Name: T-RexInformation
+  m_EditorClassIdentifier: 
+  dinosaurName: T-Rex
+  description: The Tyrannosaurus rex, commonly known as T-Rex, was a large carnivorous
+    dinosaur that lived during the Late Cretaceous period, approximately 68 to 66
+    million years ago. It was one of the last dinosaur species to exist before the
+    mass extinction event. T-Rex is characterized by its powerful hind limbs, tiny
+    forelimbs, and large, robust skull with sharp teeth. It was a apex predator,
+    likely preying on herbivorous dinosaurs of its time. With its massive size and
+    fearsome appearance, T-Rex has become an iconic symbol of the dinosaur era and
+    a popular subject in paleontological studies and popular culture.
+  historicalData: Cretaceous
+  dinosaurModel: {fileID: 0}

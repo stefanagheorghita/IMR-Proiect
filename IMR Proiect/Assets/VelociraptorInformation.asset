@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d1d7bf5d45c3647a7d177d225c2873, type: 3}
+  m_Name: VelociraptorInformation
+  m_EditorClassIdentifier: 
+  dinosaurName: Velociraptor
+  description: The Velociraptor was a small, agile, and intelligent carnivorous dinosaur
+    with a distinctive sickle-shaped retractable claw on each hind foot. Velociraptor
+    lived during the Late Cretaceous period, approximately 85 to 70 million years
+    ago.  These dinosaurs were about the size of a turkey and had a sleek, feathered
+    appearance. Contrary to popular depictions, Velociraptors likely had feathers,
+    emphasizing their connection to modern birds. Velociraptors were believed to
+    be swift and highly predatory, using their sharp teeth and claws for hunting
+    smaller prey.
+  historicalData: Cretaceous
+  dinosaurModel: {fileID: 0}
