@@ -15,9 +15,10 @@ Progres sapt 7:
 
 
 Progres sapt 10:
-- am adaugat XR Rig pentru miscare, adaugat modele maini
-- am configurat XR Rig pentru a nu putea trece prin obiecte
-- am construit scena Collection, am delimitat spatiul de miscare 
+- am adaugat XR Rig pentru miscare, cat si modelele de maini aferente
+- am configurat XR Rig pentru a impiedica trecerea prin obiecte
+- am construit scena Collection, si am delimitat spatiul de miscare 
 - am inceput adaugarea de dinozauri animati in scene
-- am adaugat butoane pentru UI in scena de primire si am facut tranzitia la scena Collection
-- am folosit ScriptableObject pentru a incepe adaugarea de informatii pentru dinozauri
+- am adaugat butoane pentru UI in scena de primire, si am facut tranzitia la scena Collection
+- am folosit ScriptableObject pentru a incepe adaugarea informatiilor despre dinozauri
+- am inceput adaugarea de elemente decorative in scene
