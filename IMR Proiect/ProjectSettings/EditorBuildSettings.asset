@@ -6,25 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/sceneDinosaurCollection.unity
+    path: Assets/_ProjectAssets/Scenes/sceneDinosaurCollection.unity
     guid: a0688f680063f384fa714d51f49ff032
   - enabled: 1
-    path: Assets/Scenes/sceneDinosaurCollectionCretaceous.unity
+    path: Assets/_ProjectAssets/Scenes/sceneDinosaurCollectionCretaceous.unity
     guid: 4448a9e9a60eefa4688de9d4eeca796e
   - enabled: 1
-    path: Assets/Scenes/sceneDinosaurCollectionJurassic.unity
+    path: Assets/_ProjectAssets/Scenes/sceneDinosaurCollectionJurassic.unity
     guid: a03caf8a1211be94387f0cc75d3746b3
   - enabled: 1
-    path: Assets/Scenes/sceneDinosaurCollectionTriassic.unity
+    path: Assets/_ProjectAssets/Scenes/sceneDinosaurCollectionTriassic.unity
     guid: 376e05b22b1a6e5469a290cdd7edaea0
   - enabled: 1
-    path: Assets/Scenes/sceneDinosaurCollectionSurvival.unity
+    path: Assets/_ProjectAssets/Scenes/sceneDinosaurCollectionSurvival.unity
     guid: d4519afbd2806ac43bef11ec64684598
   - enabled: 1
-    path: Assets/Scenes/sceneEntrance.unity
+    path: Assets/_ProjectAssets/Scenes/sceneEntrance.unity
     guid: 0c3b419b1ce308c41b8d629fa2324bc9
   - enabled: 1
-    path: Assets/Scenes/Collection.unity
+    path: Assets/_ProjectAssets/Scenes/Collection.unity
     guid: 71ea086380ccdd54f8705224e8abe62a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 708548fa157953e42ad01cbf3fd84595, type: 2}
