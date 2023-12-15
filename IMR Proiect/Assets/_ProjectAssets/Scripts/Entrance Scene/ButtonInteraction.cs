@@ -54,9 +54,9 @@ public class ButtonInteraction : MonoBehaviour
 
     void Action(Button button)
     {
-       if (button.name == "Button1")
+       if (button.name == "Button-Collection")
        {
-            print("Button1");
+            
             if (sceneTransition != null) 
             {
                 sceneTransition.ChangeSceneWithFade("Collection");
@@ -66,5 +66,17 @@ public class ButtonInteraction : MonoBehaviour
                 print("SceneTransition is null");
             }
        }
+         else if (button.name == "Button-Dino")
+         {
+            if (sceneTransition != null) 
+            {
+                sceneTransition.ChangeSceneWithFade("sceneHub");
+            }
+            else
+            {
+                print("SceneTransition is null");
+            }
+         }
+       
     }
 }

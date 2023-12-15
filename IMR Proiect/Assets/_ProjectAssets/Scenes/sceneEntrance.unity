@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 3450206}
   - component: {fileID: 3450205}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Transition-Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 298032124}
   - component: {fileID: 298032123}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button-Dino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2267,7 +2267,7 @@ GameObject:
   - component: {fileID: 1623001208}
   - component: {fileID: 1623001207}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: Button-Collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
