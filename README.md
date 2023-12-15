@@ -10,12 +10,20 @@ Tema 5: Main Modules -> https://docs.google.com/document/d/11tdjwgODLYOnkNLAPtuJ
 
 
 Ordine scene:
+
+
 sceneEntrance -> buton Colectie: scena Collection
+
               -> buton Discover dinosaurs: scena de legatura (sceneHub)
+              
               apasarea unui buton se face cu space (nu stiu daca ar merge in VR);
+              
 sceneHub -> portal verde: scena Cretacic
+
          -> portal galben: scena Jurassic
+         
 De testat VR: sceneEntrance -> sceneHub -> sceneJurassic/sceneCretaceous
+
             
 
 
