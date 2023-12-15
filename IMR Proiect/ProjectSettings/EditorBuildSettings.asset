@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_ProjectAssets/Scenes/Collection.unity
     guid: 71ea086380ccdd54f8705224e8abe62a
+  - enabled: 1
+    path: Assets/_ProjectAssets/Scenes/sceneHub.unity
+    guid: a9d54b4fe9ea9164da1484976bdce81b
+  - enabled: 1
+    path: Assets/_ProjectAssets/Scenes/sceneCretaceous.unity
+    guid: 6dd5ea7f08579384db0321fc1a9f14aa
+  - enabled: 1
+    path: Assets/_ProjectAssets/Scenes/sceneJurassic.unity
+    guid: cbb651ee2cb06124ab0c68a831e5b9a7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 708548fa157953e42ad01cbf3fd84595, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 24f3e037dc3aa1c45b075b91a9991f73, type: 2}
