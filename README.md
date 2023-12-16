@@ -45,3 +45,6 @@ Progres sapt 11:
 - am adaugat collidere in scenele cu dinozauri
 - am facut legatura intre scena de intrare si cele ale epocilor
 - am inceput comportament dinozauri
+
+  
+  Video: https://youtu.be/BTanMAQyDkc
