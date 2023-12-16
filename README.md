@@ -47,4 +47,4 @@ Progres sapt 11:
 - am inceput comportament dinozauri
 
   
-  Video: https://youtu.be/yZAmBRNlD_c
+  Video: https://youtu.be/BTanMAQyDkc
