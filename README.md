@@ -44,5 +44,5 @@ Progres sapt 11:
 - am adaugat scena intermediara pentru intrarea in fiecare perioada
 - am adaugat collidere in scenele cu dinozauri
 - am facut legatura intre scena de intrare si cele ale epocilor
-- am inceput comportament dinozauri
+- am inceput comportament dinozauri #
   Video: https://youtu.be/yZAmBRNlD_c
