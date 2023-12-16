@@ -9,6 +9,21 @@ State of The Art: https://docs.google.com/document/d/1s2b3TdgqZimblpaJy6VmFh-uV5
 Tema 5: Main Modules -> https://docs.google.com/document/d/11tdjwgODLYOnkNLAPtuJcCityMT1k5S7HT5Y-0qxZho/edit?usp=sharing
 
 
+Ordine scene:
+
+
+sceneEntrance -> buton Colectie: scena Collection #
+              -> buton Discover dinosaurs: scena de legatura (sceneHub) #
+              apasarea unui buton se face cu space (nu stiu daca ar merge in VR);
+              
+sceneHub -> portal verde: scena Cretacic #
+         -> portal galben: scena Jurassic #
+         
+De testat VR: sceneEntrance -> sceneHub -> sceneJurassic/sceneCretaceous
+
+            
+
+
 Progres sapt 7:
 - am inceput modelarea, am modelat cativa dinozauri si am inceput putin animatiile
 - am creat proiectul in Unity, am adaugat cateva scene si am adaugat niste asset-uri preluate cu animatii, unul din dinozaurii modelati animat, skybox si un exemplu pentru UI
@@ -22,3 +37,11 @@ Progres sapt 10:
 - am adaugat butoane pentru UI in scena de primire, si am facut tranzitia la scena Collection
 - am folosit ScriptableObject pentru a incepe adaugarea informatiilor despre dinozauri
 - am inceput adaugarea de elemente decorative in scene
+
+
+Progres sapt 11:
+- cleanup
+- am adaugat scena intermediara pentru intrarea in fiecare perioada
+- am adaugat collidere in scenele cu dinozauri
+- am facut legatura intre scena de intrare si cele ale epocilor
+- am inceput comportament dinozauri
