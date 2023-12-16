@@ -13889,6 +13889,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7291285094193942958, guid: fec8c5a31abb7431eb12302f8e4f2479, type: 3}
   m_PrefabInstance: {fileID: 1454698115}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1456284628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  m_PrefabInstance: {fileID: 1213417498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1456284629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456284628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71f61e17163c13429a50b6a125954a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 982710585}
+  proximityDistance: 1.5
+  sceneToLoad: sceneEntrance
 --- !u!4 &1459705738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5765486463606222628, guid: d764a33895b3c49e991abef355a25db5, type: 3}
