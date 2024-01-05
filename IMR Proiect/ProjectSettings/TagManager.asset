@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Egg
   - Terrain
+  - Meat
   layers:
   - Default
   - TransparentFX

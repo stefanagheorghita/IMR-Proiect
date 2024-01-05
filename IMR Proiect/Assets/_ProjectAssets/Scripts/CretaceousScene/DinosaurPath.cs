@@ -57,11 +57,6 @@ void MoveTowardsWaypoint()
 {
     Vector3 direction = waypoints[currentWaypoint].position - transform.position;
     direction.y = 0f;
-    Debug.Log("AYSGSGSSGSGS");
-    Debug.Log(Vector3.Distance(transform.position, waypoints[currentWaypoint].position));
-    Debug.Log("AKKKKKKK");
-    Debug.Log(waypoints[currentWaypoint].position);
-    Debug.Log(transform.position);
     
     if (direction != Vector3.zero)
     {
