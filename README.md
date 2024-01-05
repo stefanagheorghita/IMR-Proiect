@@ -9,7 +9,7 @@ State of The Art: https://docs.google.com/document/d/1s2b3TdgqZimblpaJy6VmFh-uV5
 Tema 5: Main Modules -> https://docs.google.com/document/d/11tdjwgODLYOnkNLAPtuJcCityMT1k5S7HT5Y-0qxZho/edit?usp=sharing
 
 
-Ordine scene:
+### Ordine scene:
 
 
 sceneEntrance -> buton Colectie: scena Collection #
@@ -19,7 +19,8 @@ sceneEntrance -> buton Colectie: scena Collection #
 sceneHub -> portal verde: scena Cretacic #
          -> portal galben: scena Jurassic #
          
-De testat VR: sceneEntrance -> sceneHub -> sceneJurassic/sceneCretaceous
+### De testat VR: 
+sceneEntrance -> sceneHub -> sceneJurassic/sceneCretaceous
 
             
 
@@ -40,11 +41,12 @@ Progres sapt 10:
 
 
 Progres sapt 11:
-- cleanup
-- am adaugat scena intermediara pentru intrarea in fiecare perioada
+- am realizat un cleanup al intregului proiect
+- am adaugat scena intermediara, din care se va face intrarea in fiecare dintre epoci
 - am adaugat collidere in scenele cu dinozauri
 - am facut legatura intre scena de intrare si cele ale epocilor
-- am inceput comportament dinozauri
+- am inceput lucrul la comportamentul dinozaurilor
++ am adaugat atat ordinea scenelor [Ordine scene](#ordine-scene), cat si ce scene ar trebui testate in VR [De testat VR](#de-testat-vr)
 
   
   Video: https://youtu.be/BTanMAQyDkc
