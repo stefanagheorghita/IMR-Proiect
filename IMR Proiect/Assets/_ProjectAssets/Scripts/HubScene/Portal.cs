@@ -11,9 +11,10 @@ public class Portal : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(transform.position, player.position);
+        Debug.Log("Distance to player: " + distance);
         if (distance < proximityDistance)
         {
-
+            Debug.Log("Player is close to portal");
             LoadScene();
         }
     }

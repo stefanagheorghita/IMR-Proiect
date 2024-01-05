@@ -48,6 +48,6 @@ public class AppleCollide : MonoBehaviour
         {
             gameObject.SetActive(true);
         }
-        Invoke("HideCanvas", displayDuration);
+      //  Invoke("HideCanvas", displayDuration);
     }
 }
