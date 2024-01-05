@@ -50,3 +50,14 @@ Progres sapt 11:
 
   
   Video: https://youtu.be/BTanMAQyDkc
+
+
+  Progres sapt 12:
+- am adaugat interactiuni cu obiectele
+- am adaugat anumite interactiuni cu dinozaurii
+- am implementat actiuni pentru colectarea unor dinozauri
+- am inceput scena Triassic
+- am realizat logica pentru adaugare text vorbit de dinozaur
+
+
+  Video: https://youtu.be/J2Wvz9gkfQY
