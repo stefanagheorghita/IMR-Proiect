@@ -52,6 +52,7 @@ Progres sapt 11:
   Video: https://youtu.be/BTanMAQyDkc
 
 
+
   Progres sapt 12:
 - am adaugat interactiuni cu obiectele
 - am adaugat anumite interactiuni cu dinozaurii
