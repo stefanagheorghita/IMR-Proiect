@@ -53,7 +53,7 @@ Progres sapt 11:
 
 
 
-  Progres sapt 12:
+Progres sapt 12:
 - am adaugat interactiuni cu obiectele
 - am adaugat anumite interactiuni cu dinozaurii
 - am implementat actiuni pentru colectarea unor dinozauri
