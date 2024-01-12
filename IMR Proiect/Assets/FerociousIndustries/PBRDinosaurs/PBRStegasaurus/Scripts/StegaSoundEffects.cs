@@ -21,6 +21,9 @@ public class StegaSoundEffects : MonoBehaviour
 
     public AudioClip[] deathClips;
 
+    public float delayBetweenSounds = 2.0f;
+
+    private bool isPlaying = false;
 
     //Gather variables
 
@@ -31,6 +34,43 @@ public class StegaSoundEffects : MonoBehaviour
 
     //Growl Sounds (Random)
 
+    void Update()
+    {
+        if (audioSource.isPlaying || !audioSource.enabled || isPlaying)
+        {
+            return;
+        }
+        int random = Random.Range(1,5);
+          StartCoroutine(PlayWithDelay(() =>
+        {
+            if (random == 1)
+            {
+                Growl();
+               
+            }
+            else if (random == 2)
+            {
+                Bark();
+
+            }
+            else if (random == 3)
+            {
+                Roar();
+            }
+            else if (random == 4)
+            {
+                Yelp();
+            }
+        }));
+    }
+
+   IEnumerator PlayWithDelay(System.Action soundAction)
+    {
+        soundAction.Invoke(); 
+        isPlaying = true;
+        yield return new WaitForSeconds(delayBetweenSounds);
+        isPlaying = false;
+    }
     public void Growl()
     {
         int Index = Random.Range(0, growlClips.Length);
@@ -69,13 +109,7 @@ public class StegaSoundEffects : MonoBehaviour
         audioSource.PlayOneShot(clip);
     }
 
-    //Death Sounds (Random)
+    
 
-    public void Death()
-    {
-        int Index = Random.Range(0, deathClips.Length);
 
-        AudioClip clip = deathClips[Index];
-        audioSource.PlayOneShot(clip);
-    }
 }

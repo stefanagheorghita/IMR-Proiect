@@ -37,7 +37,7 @@ void Start()
         Quaternion spawnRotation = transform.rotation;
 
         GameObject newDinosaur = Instantiate(dinosaurPrefab, spawnPosition, spawnRotation);
-         newDinosaur.transform.localScale = transform.localScale * 0.5f;
+        newDinosaur.transform.localScale = transform.localScale * 0.5f;
 
         Destroy(gameObject);
     }

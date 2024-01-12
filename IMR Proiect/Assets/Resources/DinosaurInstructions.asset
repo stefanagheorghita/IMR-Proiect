@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254ef3e1a5f27a44da687f5b9f2b75bc, type: 3}
+  m_Name: DinosaurInstructions
+  m_EditorClassIdentifier: 
+  stegosaurusInstructions: 'Bring the little dinosaur to his parents!
+
+    Hint:
+    he likes fruits!'
+  tyrannosaurusInstructions: 
+  pachyInstructions: '1. Find the nest and collect the eggs with the G key.
+
+    2.
+    Bring apples to the nest.'
+  raptorInstructions: 
