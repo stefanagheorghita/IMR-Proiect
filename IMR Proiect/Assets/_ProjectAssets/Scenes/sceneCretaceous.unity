@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 535963658}
-  proximityDistance: 1.5
+  proximityDistance: 2
   sceneToLoad: sceneHub
 --- !u!4 &50416462 stripped
 Transform:

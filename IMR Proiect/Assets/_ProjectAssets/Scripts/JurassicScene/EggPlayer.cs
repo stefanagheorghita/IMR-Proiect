@@ -45,6 +45,7 @@ public class EggPlayer : MonoBehaviour
             if (InstructionsManager.Instance.GetCurrentDinosaur() == "diplodocus")
 
            { DinosaurCollectedManager.Instance.ShowInstructionsForDuration(InstructionsManager.Instance.GetCurrentDinosaur(), 5f);
+            GameManager.Instance.CollectDinosaur(InstructionsManager.Instance.GetCurrentDinosaur());
             InstructionsManager.Instance.ChangeDinosaur("aaa");
            }
            Destroy(gameObject, 5f);

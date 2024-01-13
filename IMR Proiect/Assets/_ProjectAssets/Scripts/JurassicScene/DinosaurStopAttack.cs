@@ -61,6 +61,7 @@ public class DinosaurStopAttack : MonoBehaviour
                 }
                 targets = new GameObject[0];
                 DinosaurCollectedManager.Instance.ShowInstructionsForDuration(InstructionsManager.Instance.GetCurrentDinosaur(), 5f);
+                GameManager.Instance.CollectDinosaur(InstructionsManager.Instance.GetCurrentDinosaur());
                 InstructionsManager.Instance.ChangeDinosaur("diplodocus");
                 ReactivateKinematicAfterDelay(newdinos,k, 1.5f); 
             }

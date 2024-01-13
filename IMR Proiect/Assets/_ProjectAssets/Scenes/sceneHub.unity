@@ -14706,7 +14706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71f61e17163c13429a50b6a125954a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 982710585}
   proximityDistance: 1.5
   sceneToLoad: sceneTriassic
 --- !u!1001 &1580736414
