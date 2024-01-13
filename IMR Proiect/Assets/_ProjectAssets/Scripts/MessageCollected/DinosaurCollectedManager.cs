@@ -79,6 +79,9 @@ public class DinosaurCollectedManager : MonoBehaviour
                 case "raptor":
                     instructionsText.text = dinosaurCollected.raptorInstructions;
                     break;
+                case "diplodocus":
+                    instructionsText.text = dinosaurCollected.diplodocusInstructions;
+                    break;
                 default:
                     instructionsText.text = "No message available.";
                     break;

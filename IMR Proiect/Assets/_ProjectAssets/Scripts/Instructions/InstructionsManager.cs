@@ -78,8 +78,11 @@ public class InstructionsManager : MonoBehaviour
                 case "raptor":
                     instructionsText.text = dinosaurInstructions.raptorInstructions;
                     break;
+                case "diplodocus":
+                    instructionsText.text = dinosaurInstructions.diplodocusInstructions;
+                    break;
                 default:
-                    instructionsText.text = "No instructions available.";
+                    instructionsText.text = "You have collected all the dinosaurs! Find the hidden gems and have fun!";
                     break;
             }
         }

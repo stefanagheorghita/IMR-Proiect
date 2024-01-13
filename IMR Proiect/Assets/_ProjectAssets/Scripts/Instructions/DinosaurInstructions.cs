@@ -15,4 +15,7 @@ public class DinosaurInstructions : ScriptableObject
     [TextArea(3, 10)]
     public string raptorInstructions;
 
+    [TextArea(3, 10)]
+    public string diplodocusInstructions;
+
 }
