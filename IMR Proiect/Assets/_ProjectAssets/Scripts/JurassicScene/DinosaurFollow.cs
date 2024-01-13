@@ -33,11 +33,28 @@ public class DinosaurFollow : MonoBehaviour
 
             Quaternion targetRotation = Quaternion.LookRotation(normalizedDirection);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-
-            if (animator != null)
+            if (distance - 0.1f < minDistance)
             {
-                animator.Play("Walk");
+                if (animator != null)
+                {
+                    animator.Play("Idle");
+                }
             }
+            else
+            if ( distance + 0.1f > followRange)
+                {
+                    if (animator != null)
+                    {
+                        animator.Play("Idle");
+                    }
+                }
+                else
+                {
+                    if (animator != null)
+                    {
+                        animator.Play("Walk");
+                    }
+                }
         }
         else
         {
