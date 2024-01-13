@@ -62,3 +62,14 @@ Progres sapt 12:
 
 
   Video: https://youtu.be/J2Wvz9gkfQY
+
+
+
+
+Progres sapt 13:
+- am continuat adaugarea de dinozauri
+- am adaugat alte mini-jocuri pentru colectat
+- am adaugat scriptableObject pentru instructiunile pentru fiecare dinozaur
+
+
+  Video: https://youtu.be/0MfmMaYPeqk
