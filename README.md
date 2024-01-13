@@ -70,6 +70,10 @@ Progres sapt 13:
 - am continuat adaugarea de dinozauri
 - am adaugat alte mini-jocuri pentru colectat
 - am adaugat scriptableObject pentru instructiunile pentru fiecare dinozaur
+- am adaugat logica de memorare in colectie
 
 
   Video: https://youtu.be/0MfmMaYPeqk
+
+  
+  Video2: https://youtu.be/yYm-hf5xi5w
