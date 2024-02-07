@@ -22,22 +22,19 @@ public class DinosaurAudio : MonoBehaviour
         float dotProduct = Vector3.Dot(playerForward, directionToDinosaur);
         if (distance <= maxDistance && dotProduct > 0.5f)
         {
-            Debug.Log("Player is close to dinosaur");
-            if (!audioSources[1-currentClipIndex].isPlaying)
+            if (!audioSources[audioSources.Length-1-currentClipIndex].isPlaying)
         {
             PlayNextClip();
         }
         }
         else
         {
-    
-            if (audioSources[0].isPlaying)
+            for (int i = 0; i < audioSources.Length; i++)
             {
-                audioSources[0].Stop();
-            }
-            if (audioSources[1].isPlaying)
-            {
-                audioSources[1].Stop();
+                if (audioSources[i].isPlaying)
+                {
+                    audioSources[i].Stop();
+                }
             }
         }
     }
