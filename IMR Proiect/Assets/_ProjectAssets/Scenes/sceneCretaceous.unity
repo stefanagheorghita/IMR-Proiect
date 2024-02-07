@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 59573b088aaea0442bf29e0a0e9d1339, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: f7d4f2a1058a6074c82ad7a71203543e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5550,7 +5550,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 5
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!1001 &100132987
 PrefabInstance:
@@ -9247,7 +9246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!65 &711729803
 BoxCollider:
@@ -10260,7 +10258,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!65 &815620231
 BoxCollider:
@@ -11835,7 +11832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!114 &1023656050
 MonoBehaviour:
@@ -13066,7 +13062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!114 &1124723195
 MonoBehaviour:
@@ -16877,7 +16872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!65 &1726357333
 BoxCollider:
@@ -18507,6 +18501,171 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!1 &1979112764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979112766}
+  - component: {fileID: 1979112765}
+  m_Layer: 0
+  m_Name: Time Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1979112765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979112764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f244d0ec5302858418acb5c8b8cc6cb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxNight: {fileID: 2800000, guid: b18f2182b7556ea478fa16b4feef8f91, type: 3}
+  skyboxSunrise: {fileID: 2800000, guid: 657a80eaa746aa34a95479d279915167, type: 3}
+  skyboxDay: {fileID: 2800000, guid: 642a70605744a9f418a547bfca4fc604, type: 3}
+  skyboxSunset: {fileID: 2800000, guid: f58531ea58b4e1f499db25dd6368513c, type: 3}
+  graddientNightToSunrise:
+    serializedVersion: 2
+    key0: {r: 0.14901961, g: 0.22352941, b: 0.8117647, a: 1}
+    key1: {r: 0.77254903, g: 0.13333334, b: 0.11372549, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  graddientSunriseToDay:
+    serializedVersion: 2
+    key0: {r: 0.8666667, g: 0.23529412, b: 0.21568628, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  graddientDayToSunset:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.8901961, g: 0.14117648, b: 0.12941177, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  graddientSunsetToNight:
+    serializedVersion: 2
+    key0: {r: 0.8117647, g: 0.2901961, b: 0.18039216, a: 1}
+    key1: {r: 0.23137255, g: 0.3254902, b: 0.8117647, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  globalLight: {fileID: 103231198}
+--- !u!4 &1979112766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979112764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.145004, y: 20.482662, z: 38.953434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1984539286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2318095952616823901, guid: c906313341dd2ec4f882f1b11c4f20fd, type: 3}
@@ -18631,7 +18790,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectionDistance: 3
   collectKey: 103
-  canvasToDisplay: {fileID: 0}
   displayDuration: 3
 --- !u!65 &2041107915
 BoxCollider:
