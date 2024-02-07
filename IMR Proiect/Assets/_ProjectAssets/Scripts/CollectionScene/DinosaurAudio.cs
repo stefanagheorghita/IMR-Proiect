@@ -23,7 +23,7 @@ public class DinosaurAudio : MonoBehaviour
         if (distance <= maxDistance && dotProduct > 0.5f)
         {
             Debug.Log("Player is close to dinosaur");
-            if (!audioSources[currentClipIndex].isPlaying)
+            if (!audioSources[1-currentClipIndex].isPlaying)
         {
             PlayNextClip();
         }

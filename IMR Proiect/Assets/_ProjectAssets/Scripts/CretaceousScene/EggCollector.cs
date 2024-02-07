@@ -7,7 +7,7 @@ public class EggCollector : MonoBehaviour
     
     private  int eggCollected = 0;
 
-    public Canvas canvasToDisplay;
+
 
     public float displayDuration = 3f;
     void Update()
@@ -35,14 +35,8 @@ public class EggCollector : MonoBehaviour
         if (eggCollected == 4)
         {
             Debug.Log("You collected all the eggs!");
-            canvasToDisplay.enabled = true;
-            canvasToDisplay.gameObject.SetActive(true);
-            Invoke("HideCanvas", displayDuration);
+           
         }
     }
-    void HideCanvas()
-    {
-        canvasToDisplay.enabled = false;
-        canvasToDisplay.gameObject.SetActive(false);
-    }
+  
 }
