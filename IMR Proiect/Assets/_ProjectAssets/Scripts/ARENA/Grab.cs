@@ -27,7 +27,7 @@ public class Grab : MonoBehaviour
 
     void OnGrab(SelectEnterEventArgs args)
     {
-
+        GameManager.Instance.CollectTrophy("trophySurvival");
         Destroy(this.gameObject);
     }
 }

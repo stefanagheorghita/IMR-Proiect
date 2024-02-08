@@ -22,11 +22,15 @@ public class GameManager : MonoBehaviour
 
     private const string CollectedDinosaursKey = "CollectedDinosaurs";
 
+    private List<string> collectedTrophies = new List<string>();
+    private const string CollectedTrophiesKey = "CollectedTrophies";
+
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
         PlayerPrefs.DeleteAll();
         LoadCollectedDinosaurs();
+        LoadCollectedTrophies();
     }
 
     public void CollectDinosaur(string dinosaurName)
@@ -79,4 +83,47 @@ public class GameManager : MonoBehaviour
         Debug.Log("Collected Dinosaurs: " + string.Join(",", collectedDinosaurs.ToArray()));
         return collectedDinosaurs.Contains(dinosaurName);
     }
+
+
+      public void CollectTrophy(string trophyName)
+    {
+        if (!collectedTrophies.Contains(trophyName))
+        {
+            Debug.Log("ADDED TROPHY");
+            collectedTrophies.Add(trophyName);
+            SaveCollectedTrophies();
+            Debug.Log("Collected Trophy: " + trophyName);
+        }
+        else
+        {
+            Debug.Log("Trophy already collected: " + trophyName);
+        }
+    }
+
+    public List<string> GetCollectedTrophies()
+    {
+        return collectedTrophies;
+    }
+
+    private void SaveCollectedTrophies()
+    {
+        PlayerPrefs.SetString(CollectedTrophiesKey, string.Join(",", collectedTrophies.ToArray()));
+        PlayerPrefs.Save();
+        Debug.Log("Saved Collected Trophies: " + string.Join(",", collectedTrophies.ToArray()));
+    }
+
+    private void LoadCollectedTrophies()
+    {
+        string collectedTrophiesString = PlayerPrefs.GetString(CollectedTrophiesKey, "");
+        string[] trophyArray = collectedTrophiesString.Split(',');
+        collectedTrophies = new List<string>(trophyArray);
+    }
+
+    public bool IsTrophyCollected(string trophyName)
+    {
+        Debug.Log("Checking if trophy is collected: " + trophyName);
+        Debug.Log("Collected Trophies: " + string.Join(",", collectedTrophies.ToArray()));
+        return collectedTrophies.Contains(trophyName);
+    }
+
 }
