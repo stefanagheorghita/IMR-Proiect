@@ -20,6 +20,9 @@ public class DinosaurCollectionMessage : ScriptableObject
 
     [TextArea(3, 10)]
     public string diplodocusInstructions = "Congratulations! You have collected a Diplodocus!";
+
+    [TextArea(3, 10)]
+    public string pistosaurInstructions = "Congratulations! You have collected a Pistosaurus!";
    
 }
 

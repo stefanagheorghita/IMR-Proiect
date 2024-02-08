@@ -9,7 +9,6 @@ public class InitialDinosaur : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         bool collected = GameManager.Instance.IsDinosaurCollected(initialDinosaur[0]);
         if (collected)
         {
@@ -49,6 +48,7 @@ public class InitialDinosaur : MonoBehaviour
         {
             InstructionsManager.Instance.ChangeDinosaur(initialDinosaur[0]);
         }
+
     }
 
  

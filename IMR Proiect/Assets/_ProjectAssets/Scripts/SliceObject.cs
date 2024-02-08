@@ -15,6 +15,8 @@ public class SliceObject : MonoBehaviour
     public Material crossSectionMaterial;
     public float cutForce = 2000;
 
+    private int slicedObjectCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,11 @@ public class SliceObject : MonoBehaviour
         {
             GameObject target = hit.transform.gameObject;
             Slice(target);
+        }
+
+        if(slicedObjectCount == 3)
+        {
+           CollectDinosaur();
         }
     }
 
@@ -49,6 +56,7 @@ public class SliceObject : MonoBehaviour
             setupSlicedComponent(lowerHull);
 
             Destroy(target);
+            slicedObjectCount++;
         }
     }
 
@@ -58,5 +66,17 @@ public class SliceObject : MonoBehaviour
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
+    }
+
+
+    public void CollectDinosaur()
+    {
+        if (InstructionsManager.Instance.GetCurrentDinosaur() == "aaaaa")
+        {
+            return;
+        }
+        DinosaurCollectedManager.Instance.ShowInstructionsForDuration(InstructionsManager.Instance.GetCurrentDinosaur(), 5f);
+        GameManager.Instance.CollectDinosaur(InstructionsManager.Instance.GetCurrentDinosaur());
+        InstructionsManager.Instance.ChangeDinosaur("aaaaa");
     }
 }

@@ -62,7 +62,7 @@ public class DinosaurCollectedManager : MonoBehaviour
     void UpdateInstructionsPanel()
     {
         instructionsText.gameObject.SetActive(isInstructionsVisible);
-
+        print("LALAL"+currentDinosaur.ToLower());
         if (isInstructionsVisible)
         {
             switch (currentDinosaur.ToLower())
@@ -81,6 +81,9 @@ public class DinosaurCollectedManager : MonoBehaviour
                     break;
                 case "diplodocus":
                     instructionsText.text = dinosaurCollected.diplodocusInstructions;
+                    break;
+                case "pistosaur":
+                    instructionsText.text = dinosaurCollected.pistosaurInstructions;
                     break;
                 default:
                     instructionsText.text = "No message available.";

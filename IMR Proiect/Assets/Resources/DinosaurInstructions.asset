@@ -21,8 +21,11 @@ MonoBehaviour:
 
     2.
     Bring apples to the nest.'
-  raptorInstructions: 
+  raptorInstructions: '1. Find the red portal
+
+    2. Feed the velociraptors'
   diplodocusInstructions: '1. Find the red portal
 
     2. Go to the golden egg without
     the dinosaurs catching you '
+  pistosaurInstructions: Just slice some apples!

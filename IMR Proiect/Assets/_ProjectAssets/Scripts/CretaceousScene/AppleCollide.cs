@@ -8,7 +8,6 @@ public class AppleCollide : MonoBehaviour
     private List<GameObject> collidedApples = new List<GameObject>();
 
     public GameObject[] gameObjects;
-    public Canvas canvasToDisplay;
     public float displayDuration = 5f;
 
     void Start()
@@ -16,15 +15,14 @@ public class AppleCollide : MonoBehaviour
        
     }
 
-    void HideCanvas()
-    {
-        canvasToDisplay.enabled = false;
-        canvasToDisplay.gameObject.SetActive(false);
-    }
+    // void HideCanvas()
+    // {
+    //     canvasToDisplay.enabled = false;
+    //     canvasToDisplay.gameObject.SetActive(false);
+    // }
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision detected with " + collision.gameObject.name);
         if (collision.gameObject.name.StartsWith("Apple"))
         {
             if (!collidedApples.Contains(collision.gameObject))
@@ -48,6 +46,9 @@ public class AppleCollide : MonoBehaviour
         {
             gameObject.SetActive(true);
         }
-        Invoke("HideCanvas", displayDuration);
+
+        DinosaurCollectedManager.Instance.ShowInstructionsForDuration(InstructionsManager.Instance.GetCurrentDinosaur(), 5f);
+        GameManager.Instance.CollectDinosaur(InstructionsManager.Instance.GetCurrentDinosaur());
+        InstructionsManager.Instance.ChangeDinosaur("raptor");
     }
 }

@@ -8,6 +8,8 @@ public class Portal : MonoBehaviour
 
     public string sceneToLoad;
 
+    public GameObject toDestroy;
+
     void Update()
     {
         float distance = Vector3.Distance(transform.position, player.position);
@@ -19,6 +21,11 @@ public class Portal : MonoBehaviour
 
     void LoadScene()
     {
+        if (toDestroy != null)
+        {
+            Destroy(toDestroy);
+        }
         SceneManager.LoadScene(sceneToLoad);
+
     }
 }

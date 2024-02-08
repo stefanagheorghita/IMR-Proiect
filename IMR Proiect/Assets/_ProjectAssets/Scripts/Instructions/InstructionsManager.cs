@@ -58,7 +58,6 @@ public class InstructionsManager : MonoBehaviour
     {
        
         instructionsText.gameObject.SetActive(isInstructionsVisible);
-
         
         if (isInstructionsVisible)
         {
@@ -80,6 +79,9 @@ public class InstructionsManager : MonoBehaviour
                     break;
                 case "diplodocus":
                     instructionsText.text = dinosaurInstructions.diplodocusInstructions;
+                    break;
+                case "pistosaur":
+                    instructionsText.text = dinosaurInstructions.pistosaurInstructions;
                     break;
                 default:
                     instructionsText.text = "You have collected all the dinosaurs! Find the hidden gems and have fun!";
