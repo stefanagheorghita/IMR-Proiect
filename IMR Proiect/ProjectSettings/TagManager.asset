@@ -7,6 +7,8 @@ TagManager:
   - Egg
   - Terrain
   - Meat
+  - Bullet
+  - Dino
   layers:
   - Default
   - TransparentFX
