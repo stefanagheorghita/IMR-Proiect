@@ -60,31 +60,43 @@ public class TimeManager : MonoBehaviour
         }
     }
 
+    private Coroutine skyboxCoroutine;
+    private Coroutine lightCoroutine;
     private void OnHoursChange(int value)
-    {
+    { 
+        if (skyboxCoroutine != null)
+        {
+            StopCoroutine(skyboxCoroutine);
+        }
+
+        if (lightCoroutine != null)
+        {
+            StopCoroutine(lightCoroutine);
+        }
+
         if (value == 6)
         {
-            StartCoroutine(LerpSkybox(skyboxNight, skyboxSunrise, 10f));
-            StartCoroutine(LerpLight(graddientNightToSunrise, 10f));
+            skyboxCoroutine = StartCoroutine(LerpSkybox(skyboxNight, skyboxSunrise, 10f));
+            lightCoroutine = StartCoroutine(LerpLight(graddientNightToSunrise, 10f));
         }
         else if (value == 8)
         {
-            StartCoroutine(LerpSkybox(skyboxSunrise, skyboxDay, 10f));
-            StartCoroutine(LerpLight(graddientSunriseToDay, 10f));
+            skyboxCoroutine = StartCoroutine(LerpSkybox(skyboxSunrise, skyboxDay, 10f));
+            lightCoroutine = StartCoroutine(LerpLight(graddientSunriseToDay, 10f));
         }
         else if (value == 18)
         {
-            StartCoroutine(LerpSkybox(skyboxDay, skyboxSunset, 10f));
-            StartCoroutine(LerpLight(graddientDayToSunset, 10f));
+            skyboxCoroutine = StartCoroutine(LerpSkybox(skyboxDay, skyboxSunset, 10f));
+            lightCoroutine = StartCoroutine(LerpLight(graddientDayToSunset, 10f));
         }
         else if (value == 22)
         {
-            StartCoroutine(LerpSkybox(skyboxSunset, skyboxNight, 10f));
-            StartCoroutine(LerpLight(graddientSunsetToNight, 10f));
+            skyboxCoroutine = StartCoroutine(LerpSkybox(skyboxSunset, skyboxNight, 10f));
+            lightCoroutine = StartCoroutine(LerpLight(graddientSunsetToNight, 10f));
         }
     }
 
-    private IEnumerator LerpSkybox(Texture2D a, Texture2D b, float time)
+   private IEnumerator LerpSkybox(Texture2D a, Texture2D b, float time)
     {
         RenderSettings.skybox.SetTexture("_Texture1", a);
         RenderSettings.skybox.SetTexture("_Texture2", b);
@@ -96,6 +108,8 @@ public class TimeManager : MonoBehaviour
         }
         RenderSettings.skybox.SetTexture("_Texture1", b);
     }
+
+
 
     private IEnumerator LerpLight(Gradient lightGradient, float time)
     {
