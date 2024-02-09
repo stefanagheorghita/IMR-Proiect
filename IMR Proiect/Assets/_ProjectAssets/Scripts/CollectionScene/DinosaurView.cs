@@ -10,7 +10,7 @@ public class DinosaurView : MonoBehaviour
     void Start()
     {
     
-       collected = GameManager.Instance.IsDinosaurCollected(gameObject.name);
+        collected = GameManager.Instance.IsDinosaurCollected(gameObject.name);
         SetMaterialProperties();
     }
 

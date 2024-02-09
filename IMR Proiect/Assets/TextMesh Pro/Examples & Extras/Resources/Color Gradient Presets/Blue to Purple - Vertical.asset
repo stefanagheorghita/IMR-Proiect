@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blue to Purple - Vertical
   m_EditorClassIdentifier: 
   colorMode: 3
-  topLeft: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-  topRight: {r: 0.9150943, g: 0, b: 0, a: 1}
-  bottomLeft: {r: 0.6792453, g: 0.021787068, b: 0.021787068, a: 1}
-  bottomRight: {r: 1, g: 0.90775734, b: 0.44716978, a: 1}
+  topLeft: {r: 0.062014937, g: 0.4246007, b: 0.49056602, a: 1}
+  topRight: {r: 0.11035952, g: 0.26235962, b: 0.9433962, a: 1}
+  bottomLeft: {r: 0.023529422, g: 0.5823433, b: 0.6784314, a: 1}
+  bottomRight: {r: 0.09398361, g: 0.2643489, b: 0.3773585, a: 1}

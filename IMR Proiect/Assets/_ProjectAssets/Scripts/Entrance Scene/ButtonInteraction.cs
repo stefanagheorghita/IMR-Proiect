@@ -59,7 +59,8 @@ public class ButtonInteraction : MonoBehaviour
             
             if (sceneTransition != null) 
             {
-                sceneTransition.ChangeSceneWithFade("Collection");
+                // sceneTransition.ChangeSceneWithFade("Collection");
+                SceneManager.LoadScene("Collection");
             }
             else
             {
@@ -70,13 +71,28 @@ public class ButtonInteraction : MonoBehaviour
          {
             if (sceneTransition != null) 
             {
-                sceneTransition.ChangeSceneWithFade("sceneHub");
+                // sceneTransition.ChangeSceneWithFade("sceneHub");
+                SceneManager.LoadScene("sceneHub");
+
             }
             else
             {
                 print("SceneTransition is null");
             }
          }
+         else if (button.name == "Button-Menu")
+         {
+            if (sceneTransition != null) 
+            {
+                // sceneTransition.ChangeSceneWithFade("MainMenu");
+                SceneManager.LoadScene("MainMenu");
+            }
+            else
+            {
+                print("SceneTransition is null");
+            }
+         }
+        
        
     }
 }
