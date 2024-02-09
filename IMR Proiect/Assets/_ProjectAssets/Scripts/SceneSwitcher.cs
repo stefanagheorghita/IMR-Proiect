@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public void cretaceousCollection()
+    public void quizScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void BackFromCretaceous()
+    public void BackFromQuiz()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
-    public void jurassicCollection()
+    /*public void jurassicCollection()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
@@ -43,5 +43,5 @@ public class SceneSwitcher : MonoBehaviour
     public void BackFromSurvival()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
-    }
+    }*/
 }
